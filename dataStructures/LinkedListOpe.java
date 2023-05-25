@@ -1,7 +1,5 @@
 package com.company.Learn_Java.dataStructures;
 
-import java.util.LinkedList;
-
 class Node{
     int data;
     Node next;
@@ -146,7 +144,7 @@ public class LinkedListOpe {
             System.out.println(head.data + " is Peak node");
     }
 
-    int  displayList(Node head,int size){
+    int  displayList(Node head, int size){
         Node temp = head;
         if(head== null) {
             System.out.println("List is empty..!" + size);
@@ -188,7 +186,5 @@ public class LinkedListOpe {
         System.out.println("---------------------------------------");
         l1.displayList(l1.head,0);
     }
-
-
 }
 
